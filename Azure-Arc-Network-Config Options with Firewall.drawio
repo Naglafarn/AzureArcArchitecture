@@ -1,11 +1,11 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" scale="1" border="0" version="24.7.5">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" scale="1" border="0" version="24.7.17">
   <diagram name="Page-1" id="MsX9l4GbLyWPCwn1iEwB">
-    <mxGraphModel dx="2330" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2140" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ybJ8f6cLOKBezoYM1Rbd-123" value="&lt;b&gt;&lt;u&gt;Scenario 4 - With Arc Gateway and no Enterprise Proxy&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;Small number of URLS / Many Servers speaks with Firewall&lt;/u&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=20;strokeWidth=3;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-490" y="2350" width="1660" height="630" as="geometry" />
+          <mxGeometry x="-480" y="2315" width="1660" height="630" as="geometry" />
         </mxCell>
         <mxCell id="ybJ8f6cLOKBezoYM1Rbd-126" value="&lt;div style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;div style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;b&gt;&lt;u&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;Scenario 1 - Without Arc Gateway and with Enterprise Proxy&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;Requirement 15+ Endpoints with &amp;gt;150 URLs in large scenarios&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;1 Squid speaks with the Firewall&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=20;strokeWidth=3;horizontal=1;verticalAlign=top;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-480.00000000000006" y="206.87" width="1660" height="630" as="geometry" />
@@ -266,7 +266,7 @@
             <mxPoint x="-14" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;width=10;endSize=6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeWidth=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;width=10;endSize=6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeWidth=1;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="1164" as="sourcePoint" />
             <mxPoint x="470" y="1230" as="targetPoint" />
@@ -275,109 +275,121 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-18" value="&lt;span style=&quot;&quot;&gt;Azure Arc enabled Servers&lt;/span&gt;&lt;div style=&quot;&quot;&gt;with Proxy Port TCP/3128&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;rounded=0;strokeColor=#b85450;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#f8cecc;" vertex="1" connectable="0" parent="G9R_v6ZQSF4lDQ2XFoFB-17">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-18" value="&lt;span style=&quot;&quot;&gt;Azure Arc enabled Servers&lt;/span&gt;&lt;div style=&quot;&quot;&gt;with Proxy Port TCP/3128&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;rounded=0;strokeColor=#b85450;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#f8cecc;" parent="G9R_v6ZQSF4lDQ2XFoFB-17" vertex="1" connectable="0">
           <mxGeometry x="-0.0999" y="4" relative="1" as="geometry">
             <mxPoint x="2" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="ybJ8f6cLOKBezoYM1Rbd-28">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" target="ybJ8f6cLOKBezoYM1Rbd-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="1345" as="sourcePoint" />
             <mxPoint x="457.43" y="1273.24" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-23" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" vertex="1" parent="1">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-23" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" parent="1" vertex="1">
           <mxGeometry x="182.5" y="1296.38" width="40.49" height="37.25" as="geometry" />
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-24" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-24" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" parent="1" vertex="1">
           <mxGeometry x="411" y="1230" width="120" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-25" value="Squid Proxy" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.squid_proxy;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;" vertex="1" parent="G9R_v6ZQSF4lDQ2XFoFB-24">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-25" value="Squid Proxy" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.squid_proxy;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;" parent="G9R_v6ZQSF4lDQ2XFoFB-24" vertex="1">
           <mxGeometry y="0.5" width="32" height="32" relative="1" as="geometry">
             <mxPoint x="5" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;entryX=0.001;entryY=0.47;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G9R_v6ZQSF4lDQ2XFoFB-24">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;entryX=0.001;entryY=0.47;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="G9R_v6ZQSF4lDQ2XFoFB-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="1240" as="sourcePoint" />
             <mxPoint x="770" y="1252" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-28" value="Firewall" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;labelBackgroundColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-28" value="Firewall" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;labelBackgroundColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="550" y="1222" width="52" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="G9R_v6ZQSF4lDQ2XFoFB-24">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" target="G9R_v6ZQSF4lDQ2XFoFB-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="1345" as="sourcePoint" />
             <mxPoint x="457.43" y="1273.24" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-30" value="&lt;span style=&quot;&quot;&gt;Azure Arc enabled Servers&lt;/span&gt;&lt;div style=&quot;&quot;&gt;with Proxy Port TCP/3128&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;" vertex="1" connectable="0" parent="G9R_v6ZQSF4lDQ2XFoFB-29">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-30" value="&lt;span style=&quot;&quot;&gt;Azure Arc enabled Servers&lt;/span&gt;&lt;div style=&quot;&quot;&gt;with Proxy Port TCP/3128&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;" parent="G9R_v6ZQSF4lDQ2XFoFB-29" vertex="1" connectable="0">
           <mxGeometry x="-0.0999" y="4" relative="1" as="geometry">
             <mxPoint x="-1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-31" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" vertex="1" parent="1">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-31" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" parent="1" vertex="1">
           <mxGeometry x="137" y="1994.38" width="40.49" height="37.25" as="geometry" />
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;entryX=0.001;entryY=0.47;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="G9R_v6ZQSF4lDQ2XFoFB-36" parent="1">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;entryX=0.001;entryY=0.47;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G9R_v6ZQSF4lDQ2XFoFB-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="485.5" y="1950" as="sourcePoint" />
             <mxPoint x="724.5" y="1950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-35" value="Azure Arc Commuication&lt;br&gt;HTTPS TCP/443" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;" vertex="1" connectable="0" parent="G9R_v6ZQSF4lDQ2XFoFB-34">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-35" value="Azure Arc Commuication&lt;br&gt;HTTPS TCP/443" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;" parent="G9R_v6ZQSF4lDQ2XFoFB-34" vertex="1" connectable="0">
           <mxGeometry x="-0.0999" y="4" relative="1" as="geometry">
             <mxPoint x="32" y="-18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-36" value="Firewall" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;labelBackgroundColor=none;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-36" value="Firewall" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;labelBackgroundColor=none;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="480" y="1921.5" width="52" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-37" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" target="G9R_v6ZQSF4lDQ2XFoFB-36" parent="1">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-37" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="1" target="G9R_v6ZQSF4lDQ2XFoFB-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="204.5" y="2043" as="sourcePoint" />
             <mxPoint x="425.5" y="1972" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-38" value="Azure Arc enabled Servers&lt;div&gt;HTTPS TCP/443&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;" vertex="1" connectable="0" parent="G9R_v6ZQSF4lDQ2XFoFB-37">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-38" value="Azure Arc enabled Servers&lt;div&gt;HTTPS TCP/443&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;" parent="G9R_v6ZQSF4lDQ2XFoFB-37" vertex="1" connectable="0">
           <mxGeometry x="-0.0999" y="4" relative="1" as="geometry">
             <mxPoint x="-14" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-39" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;width=10;endSize=6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeWidth=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="G9R_v6ZQSF4lDQ2XFoFB-36">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-39" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;width=10;endSize=6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeWidth=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="G9R_v6ZQSF4lDQ2XFoFB-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="205.41" y="1862.87" as="sourcePoint" />
             <mxPoint x="425.40999999999997" y="1928.87" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-40" value="Azure Arc enabled Servers&lt;div&gt;no Proxy Port 443&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;rounded=0;strokeColor=#b85450;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#f8cecc;" vertex="1" connectable="0" parent="G9R_v6ZQSF4lDQ2XFoFB-39">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-40" value="Azure Arc enabled Servers&lt;div&gt;no Proxy Port 443&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;rounded=0;strokeColor=#b85450;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#f8cecc;" parent="G9R_v6ZQSF4lDQ2XFoFB-39" vertex="1" connectable="0">
           <mxGeometry x="-0.0999" y="4" relative="1" as="geometry">
             <mxPoint x="2" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-41" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-41" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="231.99" y="2724.81" as="sourcePoint" />
             <mxPoint x="533.49" y="2663.81" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-42" value="Azure Arc enabled Servers&lt;div&gt;HTTPS TCP/443&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;" vertex="1" connectable="0" parent="G9R_v6ZQSF4lDQ2XFoFB-41">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-42" value="Azure Arc enabled Servers&lt;div&gt;HTTPS TCP/443&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;" parent="G9R_v6ZQSF4lDQ2XFoFB-41" vertex="1" connectable="0">
           <mxGeometry x="-0.0999" y="4" relative="1" as="geometry">
             <mxPoint x="-14" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;width=10;endSize=6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeWidth=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=none;labelBackgroundColor=none;width=10;endSize=6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeWidth=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="232.9" y="2544.68" as="sourcePoint" />
             <mxPoint x="533.49" y="2603.81" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-44" value="Azure Arc enabled Servers&lt;div&gt;HTTPS TCP/443&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;rounded=0;strokeColor=#b85450;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#f8cecc;" vertex="1" connectable="0" parent="G9R_v6ZQSF4lDQ2XFoFB-43">
+        <mxCell id="G9R_v6ZQSF4lDQ2XFoFB-44" value="Azure Arc enabled Servers&lt;div&gt;HTTPS TCP/443&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;labelBackgroundColor=none;rounded=0;strokeColor=#b85450;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#f8cecc;" parent="G9R_v6ZQSF4lDQ2XFoFB-43" vertex="1" connectable="0">
           <mxGeometry x="-0.0999" y="4" relative="1" as="geometry">
             <mxPoint x="2" y="2" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="95CwvUv0fZwwfB5v00TM-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Extensions.svg;" parent="1" vertex="1">
+          <mxGeometry x="888" y="407" width="65" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ur5pswKeV7fuYlkAklbG-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Extensions.svg;" vertex="1" parent="1">
+          <mxGeometry x="888" y="1106" width="65" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ur5pswKeV7fuYlkAklbG-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Extensions.svg;" vertex="1" parent="1">
+          <mxGeometry x="843" y="1803" width="65" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ur5pswKeV7fuYlkAklbG-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Extensions.svg;" vertex="1" parent="1">
+          <mxGeometry x="870.42" y="2486" width="65" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
